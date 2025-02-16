@@ -1,0 +1,290 @@
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+
+body{
+    background-color: rosybrown;
+
+}
+.body{
+    background-color: navajowhite;
+    border: 3px solid ;
+    box-shadow: 5px 5px;
+    border-radius: 20px;
+    margin: 80px;
+    margin-top: 60px;
+    word-wrap: break-word;
+    
+}
+
+
+@media (max-width: 991px){
+.body{margin: 20px;
+          margin-top: 20px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+.features{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: auto;
+        height: auto;
+        margin: 20px;
+    }
+}
+@media (max-width: 280px){
+    .tushar{
+      display: none;
+    }
+    .header{
+        width: 100px;
+        height: auto;
+    }
+
+}
+
+.primary-button{
+    background-color: #ff8400;
+    border-radius: 30px;
+    box-shadow: 2px 2px;
+    border: 3px solid;
+    color: black;
+}
+.btn2{
+    background-color: #4f200d;
+    border-radius: 30px;
+    box-shadow: 2px 2px black;
+    border: 3px solid black;
+    color: white;
+    
+}
+.btn2:hover{
+    transform: translate(-4px,-4px);
+    box-shadow: 6px 6px #000000;
+    background-color: #FFD93D;
+    border:3px solid black;
+    color: #000000;
+}
+.btn3{
+    background-color: #FFD93D;
+    border-radius: 30px;
+    box-shadow: 2px 2px black;
+    border: 3px solid black;
+    color: black;
+    
+}
+.btn3:hover{
+    transform: translate(-4px,-4px);
+    box-shadow: 6px 6px #000000;
+    background-color: #ff8400;
+    border:3px solid black;
+    color: #000000;
+}
+   
+
+.navbar-toggler{
+    background-color: #FFD93D;
+    border-radius: 30px;
+    box-shadow: 2px 2px black;
+    border: 3px solid;
+    color: black;
+   
+}
+.navbar-toggler:active{
+    transform: translate(-3px,-3px);
+}
+
+.navbar-toggler:focus{
+    background-color: #ff8400;
+    border-radius: 30px;
+    box-shadow: 2px 2px black;
+    border: 3px solid;
+    color: black;
+   
+}
+.navbar-toggler:hover{
+    
+    box-shadow: 3px 3px #000000;
+    background-color: #ff8400;
+    border:3px solid;
+    border-radius: 30px;
+    
+    
+}
+
+.primary-button:hover{
+    transform: translate(-4px,-4px);
+    box-shadow: 6px 6px #000000;
+    background-color: #FFD93D;
+    border:3px solid;
+}
+
+
+.box{
+    background-color: white;
+    border-radius: .75rem;
+    box-shadow: 5px 5px;
+    border: 3px solid;
+    color: black;
+    padding: 20px;
+}
+.box:hover {
+    transform: translate(-4px,-4px);
+    color: #F6F1E9;
+    box-shadow: 6px 6px #000000;
+    background-color: #6f402d;
+    border:3px solid black;
+}
+
+.fa {
+    
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+  }
+.fa:hover {
+  opacity: 0.7;
+}
+.social{ 
+    background-color: wheat;
+    border-radius: .75rem;
+    box-shadow: 5px 5px;
+    border: 3px solid;
+    color: black;
+    position: absolute;
+    min-width: 50px;
+    
+
+  
+  
+}
+
+
+
+input[type=text], select, textarea {
+    color: #000000;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 3px solid black; /* Gray border */
+    border-radius: .75rem; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    box-shadow: 3px 3px ;  
+    outline: none;
+}
+  
+
+
+
+
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #ff8400;
+    border-radius: 30px;
+    box-shadow: 3px 3px black;
+    border: 3px solid black;
+    color: black;
+    padding: 6px;
+    transition: all ease-in-out 800ms;
+    transform: translate(-4px,-4px);
+    
+
+}
+input[type=submit]:hover {
+    color: #000000;
+    padding: 6px;
+    box-shadow: 6px 6px #000000;
+    background-color: #FFD93D;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+  
+.contcontainer {
+    background-color: white;
+    border-radius: .75rem;
+    box-shadow: 5px 5px;
+    border: 3px solid;
+    color: black;
+    padding: 20px;
+  }
+
+
+input[type=text]:active, select:active, textarea:active {
+    transform: translate(-4px,-4px);
+    color: #000000;
+    border:3px solid black;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: .5rem;
+    font-size: 2.2rem;
+  }
+  ul li {
+    background: 
+      conic-gradient(lightblue 0 0)
+      bottom/100% 0% no-repeat;
+    transition: .2s;
+  }
+  ul li:is(:hover,.active) {
+    background-size: 100% 100%;
+    transition: .2s .2s;
+  }
+  ul:has(li:hover) li.active:not(:hover) {
+    background-size: 100% 0%;
+    transition: .2s;
+  }
+  
+  ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 900;
+    line-height: 1.5;
+    padding-inline: .2em;
+    display: block;
+  }
+  
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background: #f2f2f2;
+    font-family: system-ui, sans-serif;
+  }
